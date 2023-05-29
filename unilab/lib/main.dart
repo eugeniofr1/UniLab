@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tela Login',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const LoginPage(),
+      home: LoginPage(),
     );
   }
 }
